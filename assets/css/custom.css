@@ -1,0 +1,26 @@
+.profile-pic-wrapper {
+  width: 100%;
+  text-align: center;
+  height: 120px;
+  margin: 16px 0;
+}
+
+.image-cropper {
+  width: 120px;
+  height: 120px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+}
+
+.image-cropper img {
+  display: inline;
+  margin: auto;
+  height: 100%;
+  width: auto;
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+}
